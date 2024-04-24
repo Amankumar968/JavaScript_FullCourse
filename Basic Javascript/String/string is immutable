@@ -1,0 +1,11 @@
+let myString = "Hello, world!";
+
+// Attempting to change a character in the string will not work.
+// This line will not have any effect on the original string.
+myString[0] = "J";
+
+// Instead, you create a new string with the desired changes.
+let newString = "J" + myString.slice(1);
+
+console.log(myString); // Output: Hello, world!
+console.log(newString); // Output: Jello, world!

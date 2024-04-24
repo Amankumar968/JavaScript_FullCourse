@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <script src="./102.js" defer></script> -->
+   
+    <script src="./129.js" defer></script>
+    <title>My Website</title>
+  </head>
+
+  //agar hum 8 line jese link krte hai to js ke execution me error aati hai jo achha nahi hai 
+
+  //pehle js 1 st line fir 2nd line ese krke 8th line ko load krega apne andar ab jab execution krne jaaega js file ko jese js me to likha hai container lekin abhi html file to load hi nhi hai to use container kahi dikhega hi nhi kaha hai error dikhega
+
+
+
+  //defer link file me use krne se parsing aur loading sath krte hai isse error aane ke tention kam hoti hai

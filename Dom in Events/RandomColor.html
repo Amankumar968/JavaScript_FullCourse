@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random COlor Generator</title>
+    <script src="./randomcol.js" defer></script>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        padding: 1rem 2rem;
+        background-color: #333;
+        color:#efefef;
+        border-radius: 1rem;
+    }
+    button{
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: background 0.4s;
+    }
+
+    button:hover{
+        background:rgb(214,214,214)
+    }
+</style>
+<body>
+  <main>
+    <div class="container">
+        <h1>Current Color:<span class="current-color">rgb(255,255,255)</span></h1>
+        <button>
+            change Background Color
+        </button>
+    </div>
+  </main>
+</body>
+</html>
